@@ -4,13 +4,13 @@ include 'db_connect.php';  //include the db_connect.php file
 
 print "<HTML><BODY><H1>Showing the users of the sampledb that has been created in the RDS few seconds ago!</H1>\n";
 
-//Create and set a new connection
+//Create and set up a new connection
 $get = new Connection("db1"); //"db1" is user defined in db_connect.php
 
 //Create a query: $var->query("SQL_STATEMENT"); $var is the variable you created a connection with.
 $selectusers = $get->query("SELECT * FROM users");
 
-//Do whatever you would like with the query
+//Do whatever you'd like with the query
 print "Total Number of user records: ";
 
 print mysql_num_rows($selectusers);
