@@ -17,7 +17,7 @@ print mysql_num_rows($selectusers);
 
 print "\n\r";
 
-//Use built in functions to make one line queries.
+//Use built-in functions to make one line queries.
 $rowarray = $get->fetch($selectusers);  //fetch() fetches the associated rows.
 
 print "<table>\n\r";  

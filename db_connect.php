@@ -14,7 +14,7 @@ class Connection {
 		"db_name" => "DATABASE_NAME"
 	);
 	
-	//You don't have to change anything here :)
+	//You don't have to change anything here.
 	public function __construct($cdb){
 		$this->cdb = $cdb;
 	}
