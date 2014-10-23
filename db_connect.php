@@ -1,6 +1,6 @@
 <?php
 class Connection {
-	//Add or remove as many databases as you would like.  See the ReadMe for naming conventions.
+	//Add (or remove) as many databases as you'd like.  See the ReadMe for naming conventions.
 	public $db1 = array(
 		"host" => "$mysql_service.address.public:$mysql_service.port",
 		"user" => "$mysql_service.username",
@@ -14,7 +14,7 @@ class Connection {
 		"db_name" => "DATABASE_NAME"
 	);
 	
-	//You don't have to change anything here :)
+	//You don't have to change anything here.
 	public function __construct($cdb){
 		$this->cdb = $cdb;
 	}
