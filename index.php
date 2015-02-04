@@ -2,7 +2,7 @@
 
 include 'db_connect.php';  //include the db_connect.php file
 
-print "<HTML><BODY><H1>Here are the users of the sampledb created in the RDS a few seconds ago!</H1>\n";
+print "<HTML><BODY><H1>Showing the users of the sampledb created in the RDS a few seconds ago!</H1>\n";
 
 //Create and set a new connection
 $get = new Connection("db1"); //"db1" is user defined in db_connect.php
